@@ -43,9 +43,9 @@ toucan.jpg,bf01ea2bi00a21f7
 
 ## Library usage
 
-- `FromFile(*os.File) (uint64, err)`
-- `FromFilepath(string) (uint64, err)`
-- `FromBytes([]byte) (uint64, err)`
+- `oshash.FromFile(*os.File) (uint64, err)`
+- `oshash.FromFilepath(string) (uint64, err)`
+- `oshash.FromBytes([]byte) (uint64, err)`
 
 To convert the uint64 values to a hexdecimal string, use `strconv.FormatUint(oshash_value, 16)`.
 
