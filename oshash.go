@@ -1,5 +1,5 @@
 // Package oshash provides a library and a command-line interface tool for
-// compputing OpenSubtitles hash values for files and arbitrary data.
+// computing OpenSubtitles hash values for files and arbitrary data.
 //
 // The OpenSubtitles hash format is defined as a 64-bit integer value, made from
 // the size of the input data in bytes, a checksum of the first 64 kibibytes in
